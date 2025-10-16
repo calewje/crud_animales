@@ -1,4 +1,4 @@
-use animales;
+use b221190048_crud2;
 
 db.animal.insert({
     "mascota" : "Paco",
