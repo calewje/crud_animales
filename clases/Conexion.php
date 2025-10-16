@@ -7,7 +7,7 @@
            try {
                 $servidor = "localhost";
                 $puerto = "27017";
-                $BD = "b221190048_crud";
+                $BD = "b221190048_crud2";
                 $usuario = "backend";
                 $password = "backend2025";
                 $cadenaConexion = "mongodb://" . 
