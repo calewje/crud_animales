@@ -1,5 +1,5 @@
 <?php 
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/crud_animales/vendor/autoload.php";
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/b221190048/crud_animales/vendor/autoload.php";
     #require_once __DIR__ . "/../vendor/autoload.php";
 
     class Conexion {
@@ -7,8 +7,8 @@
            try {
                 $servidor = "localhost";
                 $puerto = "27017";
-                $usuario = "b2211190048";
-                $password = "123456";
+                $usuario = "backend";
+                $password = "backend2025";
                 $BD = "b221190048_crud";
                 $cadenaConexion = "mongodb://" . 
                                     $usuario . ":" . 
