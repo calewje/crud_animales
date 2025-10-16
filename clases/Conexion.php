@@ -10,12 +10,8 @@
                 $BD = "b221190048_crud2";
                 $usuario = "backend";
                 $password = "backend2025";
-                $cadenaConexion = "mongodb://" . 
-                                    $usuario . ":" . 
-                                    $password . "@". 
-                                    $servidor .":". 
-                                    $puerto ."/". 
-                                    $BD;
+                $cadenaConexion = "mongodb://$usuario:$password@$servidor:$puerto/$BD?authSource=admin";
+
                 $cliente = new MongoDB\Client($cadenaConexion);
                 return $cliente->selectDatabase($BD);
            } catch (\Throwable $th) {
